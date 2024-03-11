@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+--cor-de-fundo:green;
+--texto1: #680303;
+--texto2: red;
+--botao-ativo:#33a375e;
+--botao-inativo:
+--texto-fundo:
+}
+body{
+    background-color: rgb(9, 106, 190);--cor-de-fundo;
+    color: var(--texto1);
+    font-family:"Permanet marker", serif;
+}
+.boteos{
+    font: 40px;
+    text-align: center;
+
+
+}
+.titulo-principal{
+    font: 45px;
+    text-align: center;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 36px;
+}
+.botao{
+    font:family;"kode mano"sons-seriff
+    background-color: var(--botao-inativo);
+    display:flex
+    color:var(--texto1);
+    justify-content:center;
+    padding:1em;
+    font-size: 50px;
+    align-itens:center;
+    width: 100px;
+
+}
